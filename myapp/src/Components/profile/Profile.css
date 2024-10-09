@@ -1,0 +1,77 @@
+.forms{
+  height: 100vh;
+  background-color: #393CF4;
+  height: 110vh;
+}
+
+.container{
+  height: 100%;
+  padding: 40px;
+  /* border: 1px solid black; */
+}
+
+.container h2{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.label{
+  margin-bottom: -20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 20px;
+  /* border: 1px solid black; */
+}
+
+label input{
+  border: 1px solid rgb(204, 204, 204);
+  height: 30px;
+  border-radius: 7px;
+}
+
+.upAndDe{
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  width: 40%;
+}
+
+.btn-up-de{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn-up-de button{
+  cursor: pointer;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 20px;
+  padding: 12px 45px;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 7px;
+  padding: 12px 45px;
+  margin: auto;
+  color: white;
+  background-color: #393CF4;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.blue-btn{
+  background-color: #393CF4;
+  color: white;
+}
+
+.red-btn{
+  background-color: rgb(220 38 38);
+  color: white;
+}

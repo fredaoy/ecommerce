@@ -1,0 +1,96 @@
+.carts {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+ }
+ 
+ .carts h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #1977F3;
+ }
+ 
+ .carts-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+ }
+ 
+ .carts-item {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 140px;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease; /* เพิ่มคุณสมบัตินี้ */
+}
+
+.carts-item:hover {
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.2); /* เปลี่ยนเงาเมื่อเลื่อนเมาส์เหนือรายการสินค้า */
+}
+
+.hr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 3.5px;
+  border-radius: 10px;
+  background-color: #0b0b0b;
+  margin: auto;
+}
+
+.carts-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.cart-item-details {
+  width: 400px;
+  /* border: 1px solid black; */
+  display: flex;
+  gap: 50px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cart-item-details div {
+  text-align: right;
+  margin-left: 10px;
+  position: relative;
+}
+
+/* .cart-item-details div::before {
+  content: url('path/to/cart-icon.svg');
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+} */
+
+.cart-item-details p {
+  margin: 2px 0;
+  font-size: 14px;
+}
+
+
+
+.cart-item-details button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}

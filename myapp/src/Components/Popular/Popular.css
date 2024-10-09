@@ -1,0 +1,94 @@
+.all-product{
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.popular{
+  margin-top: -50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.popular h1{
+  margin-top: 40px;
+  color: #1977F3;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.popular hr{
+  width: 70px;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #0b0b0b;
+}
+
+.popular-item{
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  padding: 30px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 40px;
+  /* height: 1000px; */
+  /* border: 1px solid black; */
+  max-width: 90%;
+  overflow-y: auto; /* เพิ่ม overflow-x เพื่อให้เลื่อนในแนวตั้ง */
+  overflow-x: auto; /* เพิ่ม overflow-x เพื่อให้เลื่อนในแนวนอน */
+  width: fit-content; /* ทำให้ความกว้างของตะกร้ายืดหยุ่นตามเนื้อหา */
+}
+
+.popular-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* จัดเรียงเป็น 2 คอลัมน์ */
+  gap: 40px;
+  height: 430px; /* กำหนดความสูงของ .popular-item เป็น 500px */
+  padding: 30px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  overflow: auto; /* เลื่อนได้ทั้งแนวนอนและแนวตั้ง */
+}
+
+.popular-item div{
+ /* border: 1px solid black; */
+ padding: 5px;
+}
+
+.popular-item img{
+  border-radius: 7px;
+  width: 210px;
+  height: 200px;
+ }
+
+ .btn-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-add input {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+
+

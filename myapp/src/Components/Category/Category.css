@@ -1,0 +1,31 @@
+.category {
+  padding: 70px; /* ลด padding รอบๆ */
+}
+
+.category-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px; /* ลดช่องว่างระหว่างแต่ละหมวดหมู่ */
+}
+
+.list-name {
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+}
+
+.list-name img {
+  display: block;
+  margin: 0 auto 3px; /* ลดช่องว่างระหว่างรูปภาพและชื่อหมวดหมู่ */
+}
+
+.background-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* หรือสีที่คุณต้องการ */
+  border-radius: 3px; /* ลดความโค้งมนของขอบ */
+}

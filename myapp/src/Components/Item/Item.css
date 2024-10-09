@@ -1,0 +1,41 @@
+.item{
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  /* border: 0.5px solid rgb(168, 168, 168); */
+  
+  box-shadow: 0 30px 50px rgba(160, 153, 153, 0.2);
+}
+
+
+
+.item p{
+  margin: 6px 0px
+}
+
+.item-price{
+  display: flex;
+  gap: 20px;
+}
+
+.item-price-new{
+  color: #374151;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* .item-price-old{
+  color: #8c8c8c;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: line-through;
+} */
+
+.item:hover{
+  transform: scale(1.05);
+  transition: 0.6s;
+}
